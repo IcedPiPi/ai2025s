@@ -20,10 +20,13 @@
   @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
 
   @font-face {
-    font-family:'CircleFont';
+     font-family:'CircleFont';
     src: url(https://circle472.github.io/ct2022s/hw04/CircleFont_v2.woff2); 
   }
-
+  @font-face {
+     font-family:'t113378043';
+    src: url(https://Garvin2009.github.io/ai2025s/hw01/113378043.woff2);
+  }
   table {
       border-collapse: collapse;
       border: 2px solid white; /* rgba(217,140,144,1) */
@@ -86,7 +89,9 @@
     color: rgb(106, 76, 156);
     font-family: 'CircleFont', 'Noto Sans JP', serif;
   }
-
+  p{
+    font-family:'t113378043', serif;
+  }
   .container-fluid {
     width:  90%;
   }
@@ -147,17 +152,33 @@
   <!-- ------------------------------------------------>
   <div class="row hw12">
     <div class="col-md-12 twenty">
-      <h1>作業 01</h1>
+      <h1>作業 01-稿紙</h1>
     </div>
   </div>
 
   <!-- ------------------------------------------------>
   <div class="row hw12">
     <div class="col-md-12 twenty">
-      心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。
+      這次的作業花了很久才完成，有很多時間都是因為平板存檔的時候CTD，重寫才花掉的。加上花太久在寫字上，導致前面跟後面的字體大小不一，邊調整前面的大小邊寫新的，結果幾乎全部都比切割範圍的大小都還要大一點，最後是改程式碼調整整體字型的大小才完成的。
     </div>
   </div>
 
+  <!-- ------------------------------------------------>
+  <div class="row hw12">
+      <div class="col-md-12 twenty">
+        稿紙位置連結：(手寫的稿紙上傳壓縮檔、電子書寫的上傳pdf檔)
+        <input type="button" name="back" onclick="location.href='https://github.com/Garvin2009/ai2025s/blob/main/hw01/113598097.zip'" value="按我 ٩(｡・ω・｡)و 前往">
+        (p.s 請記得修改網址)
+      </div>
+  </div>
+  <!-- ------------------------------------------------>
+  <div class="row hw12">
+      <div class="col-md-12 twenty">
+        字體檔位置連結：授權至SIL開源字型
+        <input type="button" name="back" onclick="location.href='https://github.com/Garvin2009/ai2025s/blob/main/hw01/113598097.ttf'" value="按我 ٩(｡・ω・｡)و 前往">
+        (p.s 請記得修改網址)
+      </div>
+  </div>
   <!-- ------------------------------------------------>
   <div class="row hw12">
     <div class="col-md-12 twenty">
@@ -170,22 +191,22 @@
         </tr>
         <tr>
           <td rowspan="4" id="myTotal"></td>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox1"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox1"checked></td>
           <td id='m1'>4</td>
-          <td>Simple baseline - 描述</td>
+          <td>Simple baseline - 稿紙1~30頁完成</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox2"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox2"checked></td>
           <td id='m2'>4</td>
-          <td>Medium baseline - 描述</td>
+          <td>Medium baseline - 稿紙31~57頁完成</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox3"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox3"checked></td>
           <td id='m3'>2</td>
-          <td>Strong baseline - 描述</td>
+          <td>Strong baseline - 字體包上傳完成且用自己的字體顯示</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox4" checked></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox4" ></td>
           <td id='m4'>-10</td>
           <td>沒有寫100字心得</td>
         </tr>
@@ -195,18 +216,28 @@
   </div>
 
   <!-- ------------------------------------------------>
-  <div class="row hw12 bottomrow">
-    <div class="col-md-12 twenty">
-      <video id="video1" style="width:100%;max-width:100%;" controls="">
-        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-      </video>
+  <div class="row hw12">
+    <div class="col-md-12 twenty">    
+       <figure>
+          <figcaption>稿紙第30頁</figcaption>
+          <img src="30.png" width="700px"/>
+       </figure>
+       <figure>
+          <figcaption>稿紙第57頁</figcaption>
+          <img src="57.png" width="700px"/>
+        </figure>
+    </div>
+  </div>
+  <!-- ------------------------------------------------>
+   <div class="row hw12">
+    <div class="col-md-12 twenty">    
+      <p> 
+      </p>
     </div>
   </div>
 
   <!-- ------------------------------------------------>
-
   <!-- ------------------------------------------------>
-
 
 <script>
   $(function() {
