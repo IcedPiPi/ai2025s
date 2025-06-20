@@ -1,0 +1,16 @@
+
+
+Extracted text has been saved to ./output-Large Language Models explained briefly.txt.
+
+
+Review the results of splitting the long text into several short texts.
+
+
+========== The 1-st segment of the split (95 words) ==========
+
+
+おう、マスター、元気か? 私はダメだ 原因? ああ、心當たりはある。ありすぎる。 どれだ?気元切れのパンか? 変色してた刺身か? 昨日取ってきたキノコか?
+
+それとも黒曜石か? どれだろうか?
+
+
